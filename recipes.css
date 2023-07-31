@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.title {
+    background-color: white;
+}
+
+.title h1 {
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    text-decoration: underline;
+}
+
+.main {
+    width: 1920px;
+    background-color: orange;
+    padding: 20px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.hero-pictures {
+    display: flex;
+    gap: 20px;
+}
+
+.image .annoyed-me {
+    height: 635px;
+}
+
+.image img {
+    width: 850px;
+    height: auto;
+}
+
+.support-images img {
+    display: block;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 18px;
+}
+
+.nutrients {
+    width: 735px;
+    background-color: white;
+    padding: 15px;
+    height: 635px;
+}
+
+.another-one {
+    display: flex;
+    justify-content: center;
+}
+
+.measurements {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 500px;
+    margin: 50px;
+}
+
+.measurement-type {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    width: 180px;
+}
+
+.warning {
+    font-size: medium;
+    margin-top: 50px;
+}
+
+.text {
+    display: flex;
+    gap: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text h1 {
+    margin-bottom: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 25px;
+    background-color: orange;
+    color: white;
+}
+
+.footer p {
+    font-weight: bold;
+    font-size: 25px;
+}
